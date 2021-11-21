@@ -10,7 +10,7 @@ public class Ride {
     //private Offers [] offers ;
     DataManager dataManager;
 
-    public void StartRide (String source,String destination)//, String rideid )
+    public void StartRide (String source,String destination)
     {
 
          String RideID =UUID.randomUUID().toString();
@@ -22,7 +22,7 @@ public class Ride {
         if(/*user accept offer*/)
             System.out.println(RideID);
        /* else
-        System.out.println("stil looking for driver");*/0
+        System.out.println("stil looking for driver");*/
 
     }
 
@@ -34,10 +34,10 @@ public class Ride {
 
     public boolean RideStatus (String id)
     {
-        if (EndRide()=="yes") ////
-            System.out.println("ride ended");
+        if (EndRide()=="yes") ////w5dah mn class driver
+            return true;
         else
-            System.out.println("ongoing");
+            return false;
     }
 
     public void DisplayRide()
