@@ -35,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="DataManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -51,7 +51,10 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f459306d-ca3a-4728-8c5c-d8ce35911c3d" name="Changes" comment="" />
@@ -73,5 +76,15 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="654" y="310" key="#Notifications" timestamp="1637524439530">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="654" y="310" key="#Notifications/0.30.1536.834@0.30.1536.834" timestamp="1637524439530" />
+    <state x="202" y="116" key="SettingsEditor" timestamp="1637524431655">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="202" y="116" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1637524431655" />
   </component>
 </project>
