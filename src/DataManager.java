@@ -16,5 +16,7 @@ public class DataManager {
     public void executeDelete(String ID){
         op.delete(ID);
     }
-
+    /*public static void main(String[] args){
+        System.out.println("hello world");
+    }*/
 }

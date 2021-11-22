@@ -2,7 +2,7 @@ public class RidesData implements Operations{
     private Object [] rides;
 
     @Override
-    public void save(Object data) {
+    public void save(Object ride) {
 
     }
 
@@ -17,7 +17,7 @@ public class RidesData implements Operations{
     }
 
     @Override
-    public void delete(String ID) {
-        
+    public void delete(String rideID) {
+
     }
 }

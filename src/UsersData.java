@@ -2,7 +2,7 @@ public class UsersData implements Operations{
     private Object [] users;
 
     @Override
-    public void save(Object data) {
+    public void save(Object user) {
 
     }
 
@@ -17,7 +17,7 @@ public class UsersData implements Operations{
     }
 
     @Override
-    public void delete(String ID) {
+    public void delete(String username) {
 
     }
 }
