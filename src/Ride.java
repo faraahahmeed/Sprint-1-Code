@@ -1,4 +1,5 @@
 
+import java.util.Scanner;
 import java.util.UUID;
 public class Ride {
     private String Source;
@@ -6,9 +7,9 @@ public class Ride {
     private String RideID;
     private float Cost;
     private boolean status;
-    private float riderate;
-    //private Offers [] offers ;
-    DataManager dataManager;
+    //private float riderate;
+    private Offers [] offers ;
+    DataManager dataManager = new DataManager();
 
     public void StartRide (String source,String destination)
     {
@@ -32,7 +33,7 @@ public class Ride {
         //return addOffer( h7ot driver id ,cost);
     }
 
-    public boolean RideStatus (String id)
+    public boolean RideStatus (String rideIDid)
     {
         if (EndRide()=="yes") ////w5dah mn class driver
             return true;
@@ -47,7 +48,9 @@ public class Ride {
     }
     public float RateRide (float rate)
     {
-        riderate=rate;
+        Scanner in =new Scanner(System.in);
+        System.out.println("Enter your Ride rating");
+        rate= in.nextFloat();
         return rate;
     }
 }
