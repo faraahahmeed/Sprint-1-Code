@@ -1,39 +1,29 @@
 
 import java.util.Scanner;
 import java.util.UUID;
-public class Ride
+public class Ride extends NotifyManager
 {
     private String Source;
     private String Destination;
     private String RideID;
-    private float Cost;
-    private boolean status;
-    //private float riderate;
+
     private Offer [] offers ;
     DataManager dataManager = new DataManager();
     Offer offer= new Offer();
     Driver driver=new Driver();
-    NotifyManager notifyManager=new NotifyManager();
+    NotifyManager notifyManager = new NotifyManager();
 
     public void StartRide (String source,String destination)
     {
-
         String RideID =UUID.randomUUID().toString();
         Source=source;
         Destination=destination;
-        notifyManager.notify();
-
-        if(/*user accept offer*/)
-            System.out.println(RideID);
-       else
-        System.out.println("stil looking for driver");
-
+        notifyManager.Notify();
     }
 
-    public float SetCost (float cost)
+    public void SetCost (float cost)
     {
-        Cost=cost;
-        //return addOffer( h7ot driver id ,cost);
+         offer.AddOffer(cost);
     }
 
     public boolean RideStatus (String rideIDid)
@@ -47,14 +37,15 @@ public class Ride
 
     public void DisplayRide()
     {
-        dataManager.setDataType(new RidesData);
+        Operations operations= new RidesData();
+        dataManager.setDataType(operations);
         dataManager.executeGet(RideID);
     }
-    public float RateRide (float rate)
+    public float RateRide (float rating)
     {
         Scanner in =new Scanner(System.in);
         System.out.println("Enter your Ride rating");
-        rate= in.nextFloat();
-        return rate;
+        rating= in.nextFloat();
+        return rating;
     }
 }

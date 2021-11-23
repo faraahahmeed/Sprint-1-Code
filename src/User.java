@@ -1,6 +1,6 @@
 import java.util.UUID;
 
-public abstract class User  //extends Observer
+public abstract class User
 {
     private String username;
     private String email;
