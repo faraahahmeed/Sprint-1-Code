@@ -1,21 +1,35 @@
 
-import java.util.Scanner;
-import java.util.UUID;
+import java.util.ArrayList;
+import java.util.*;
+
 public class Ride extends NotifyManager
 {
     private String Source;
     private String Destination;
-    private String RideID;
+    private int RideID;
 
     private Offer [] offers ;
-    DataManager dataManager = new DataManager();
-    Offer offer= new Offer();
-    Driver driver=new Driver();
-    NotifyManager notifyManager = new NotifyManager();
+    private Offer offer= new Offer();
+    private Driver driver=new Driver();
+    private NotifyManager notifyManager = new NotifyManager();
+    private List<Ride> list = new ArrayList<Ride>();
+    private Random rd = new Random();
+
+    public void save(Ride ride) {
+        list.add(ride);
+    }
+
+    public int getNumberOfRides(){
+        return list.size();
+    }
+
+    public Ride getHistory() {
+        return (Ride) list;
+    }
 
     public void StartRide (String source,String destination)
     {
-        String RideID =UUID.randomUUID().toString();
+        RideID = rd.nextInt();
         Source=source;
         Destination=destination;
         notifyManager.Notify();
@@ -37,9 +51,7 @@ public class Ride extends NotifyManager
 
     public void DisplayRide()
     {
-        Operations operations= new RidesData();
-        dataManager.setDataType(operations);
-        dataManager.executeGet(RideID);
+        list.get(RideID);
     }
     public float RateRide (float rating)
     {

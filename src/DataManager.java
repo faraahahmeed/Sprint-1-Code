@@ -4,13 +4,13 @@ public class DataManager {
     public void setDataType(Operations op){
         this.op = op;
     }
-    public void executeSave(Object data){
+    public void executeSave(String data){
         op.save(data);
     }
-    public Object executeGet(String ID){
+    public String executeGet(String ID){
         return op.get(ID);
     }
-    public void executeUpdate(Object OLDdata, Object NEWdata){
+    public void executeUpdate(String OLDdata, String NEWdata){
         op.update(OLDdata, NEWdata);
     }
     public void executeDelete(String ID){
