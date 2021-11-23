@@ -75,6 +75,5 @@ public class Passenger extends User{
     public void update() {
         System.out.println("new Offer added, check it out");
 
->>>>>>> Stashed changes
     }
 }

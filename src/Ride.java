@@ -35,11 +35,8 @@ public class Ride extends Observer{
 
     public boolean RideStatus (String rideIDid)
     {
-<<<<<<< Updated upstream
-        if (endride()=="yes") ////w5dah mn class driver
-=======
         if (driver.endride()==true)
->>>>>>> Stashed changes
+
             return true;
         else
             return false;
