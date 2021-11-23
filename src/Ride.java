@@ -1,7 +1,8 @@
 
 import java.util.Scanner;
 import java.util.UUID;
-public class Ride extends Observer{
+public class Ride
+{
     private String Source;
     private String Destination;
     private String RideID;
@@ -12,6 +13,7 @@ public class Ride extends Observer{
     DataManager dataManager = new DataManager();
     Offer offer= new Offer();
     Driver driver=new Driver();
+    NotifyManager notifyManager=new NotifyManager();
 
     public void StartRide (String source,String destination)
     {
@@ -19,7 +21,8 @@ public class Ride extends Observer{
         String RideID =UUID.randomUUID().toString();
         Source=source;
         Destination=destination;
-        offer.update(); ////////////
+        notifyManager.notify();
+
         if(/*user accept offer*/)
             System.out.println(RideID);
        else
