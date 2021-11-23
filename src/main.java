@@ -1,16 +1,11 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
-
+         Random rd = new Random();
+        boolean flag = true;
         Scanner input = new Scanner(System.in);
-        Scanner in = new Scanner(System.in);
-        //User user = new User();
-        Driver driver = new Driver();
-        Passenger passenger = new Passenger();
-        Ride ride = new Ride();
-        Offer offer = new Offer();
-
         System.out.println("enter username,password,email & mobilenumber");
 
         String username =input.next();
@@ -18,22 +13,27 @@ public class main {
         String email = input.next();
         String mobilenum = input.next();
 
+        Ride ride = new Ride();
+        Driver driver = new Driver();
+        NotifyManager notifyManager=new NotifyManager();
+        Passenger passenger = new Passenger();
+
+
         System.out.println("Passenger(p) or Driver (d)");
         String option = input.next();
 
         if (option.equalsIgnoreCase("d") ){
-
+            Offer offer = new Offer();
             System.out.println("Enter national id and Driving license");
-            String id = input.next();
-            String license = input.next();
+            String id = input.nextLine();
+            String license = input.nextLine();
             driver.Register(username, password, email, mobilenum);
             driver.setNationalid(id);
             driver.setDrivinglicense(license);
 
-            boolean flag = true;
           while(flag) {
                System.out.println(" 1- Add area.\n 2- End Ride.\n 3- View ride history.\n 4- Add offer.\n 5- Exit");
-                int choice = in.nextInt();
+                int choice = input.nextInt();
                 switch (choice){
                     case 1: {
                         System.out.println("Enter area");
@@ -53,8 +53,9 @@ public class main {
                     case 4:{
                         System.out.println("Enter price");
                         float price;
-                        price = in.nextFloat();
+                        price = input.nextFloat();
                         offer.AddOffer(price);
+                        notifyManager.Notify();
                         break;
                     }
                     case 5:{
@@ -70,9 +71,42 @@ public class main {
         }
         else if(option.equalsIgnoreCase("p")){
 
-            passenger.Register(username, password, email, mobilenum);
+            while (flag){
 
-        }
+                float cost =rd.nextFloat();
+            passenger.Register(username, password, email, mobilenum);
+            System.out.println("if you want to request ride, type your source area snd Destination");
+            String source =input.nextLine();
+            String destination =input.nextLine();
+            ride.StartRide(source,destination);
+            driver.setPrice(cost);
+            notifyManager.Notify();
+
+            System.out.println(driver.getPrice());
+
+            while (flag) {
+                System.out.println("want to accept offer?");
+                String accept=input.nextLine();
+                if ( accept == "yes") {
+                    passenger.AcceptOffer(); break;
+                }
+                else {
+                    driver.setPrice(cost);
+                    System.out.println(driver.getPrice());
+                }
+            }
+            System.out.println("do you want to view driver details?");
+            String choice=input.nextLine();
+            if(choice=="yes")
+            {
+                passenger.DriverDetails(driver);
+            }
+
+            System.out.println("rate ride");
+            float rate=input.nextFloat();
+            passenger.Rating(rate);
+
+        } }
         else{
             System.out.println("Enter valid option...");
         }

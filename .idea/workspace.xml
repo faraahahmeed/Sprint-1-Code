@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a8fdc26-dfb9-4a6b-bb5f-f0691c249d25" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ride.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +89,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\dell\AppData\Roaming\Subversion</configuration>
   </component>
@@ -132,5 +132,59 @@
     <MESSAGE value="editing classes" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1637671833373">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="574" y="154" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1637671833373" />
+    <state x="549" y="189" key="FileChooserDialogImpl" timestamp="1637687248947">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="549" y="189" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1637687248947" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1637700850760">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1637700850760" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1637700850760">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1637700850760" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1637700850760">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1637700850760" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1637700850760">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1637700850760" />
+    <state x="147" y="97" key="MergeDialog" timestamp="1637658710313">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="147" y="97" key="MergeDialog/0.30.1536.834@0.30.1536.834" timestamp="1637658710313" />
+    <state x="407" y="209" key="MultipleFileMergeDialog" timestamp="1637658733518">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="407" y="209" key="MultipleFileMergeDialog/0.30.1536.834@0.30.1536.834" timestamp="1637658733518" />
+    <state x="529" y="150" key="RollbackChangesDialog" timestamp="1637658635289">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="529" y="150" key="RollbackChangesDialog/0.30.1536.834@0.30.1536.834" timestamp="1637658635289" />
+    <state x="300" y="67" key="SettingsEditor" timestamp="1637687677589">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="300" y="67" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1637687677589" />
+    <state x="578" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1637658643161">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="578" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1637658643161" />
+    <state x="360" y="68" key="new project wizard" timestamp="1637687250675">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="360" y="68" key="new project wizard/0.30.1536.834@0.30.1536.834" timestamp="1637687250675" />
+    <state x="425" y="204" key="run.anything.popup" timestamp="1637678167884">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="425" y="204" key="run.anything.popup/0.30.1536.834@0.30.1536.834" timestamp="1637678167884" />
   </component>
 </project>

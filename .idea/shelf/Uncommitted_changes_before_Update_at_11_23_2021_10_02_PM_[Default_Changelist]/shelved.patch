@@ -1,0 +1,76 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_15\" default=\"true\" project-jdk-name=\"openjdk-17\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/classes\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision cd68d0c9d9ff75bf63b7caa0b394c33f9bc6f6d7)
++++ .idea/misc.xml	(date 1637697727583)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="true" project-jdk-name="openjdk-17" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="openjdk-17" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/classes" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0a8fdc26-dfb9-4a6b-bb5f-f0691c249d25\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Driver.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Driver.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/User.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/User.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PREVIOUS_COMMIT_AUTHORS\">\r\n      <list>\r\n        <option value=\"msherifff &lt;marimsherif2008@yahoo.com&gt;\" />\r\n      </list>\r\n    </option>\r\n    <option name=\"PUSH_TAGS\">\r\n      <GitPushTagMode>\r\n        <option name=\"argument\" value=\"--tags\" />\r\n        <option name=\"title\" value=\"All\" />\r\n      </GitPushTagMode>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"21C0ZIwdZk437pJTF7ZXNzUMRsU\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ChangesTree.GroupingKeys\" value=\"module\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"reference.projectsettings.compiler.javacompiler\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.main\">\r\n    <configuration name=\"DataManager\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"DataManager\" />\r\n      <module name=\"sprint 1\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"main\" />\r\n      <module name=\"sprint 1\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.main\" />\r\n        <item itemvalue=\"Application.DataManager\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"false\" />\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration>C:\\Users\\dell\\AppData\\Roaming\\Subversion</configuration>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b9316962-ec7f-4b5e-89f7-6d1700582634\" name=\"Default Changelist\" comment=\"Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\r\n      <created>1637429838792</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1637429838792</updated>\r\n    </task>\r\n    <task id=\"LOCAL\u061C٠٠٠٠١\" summary=\"Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1637663488006</created>\r\n      <option name=\"number\" value=\"LOCAL\u061C٠٠٠٠١\" />\r\n      <option name=\"presentableId\" value=\"LOCAL\u061C٠٠٠٠١\" />\r\n      <updated>1637663488006</updated>\r\n    </task>\r\n    <task id=\"LOCAL\u061C٠٠٠٠٢\" summary=\"Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <created>1637663510274</created>\r\n      <option name=\"number\" value=\"LOCAL\u061C٠٠٠٠٢\" />\r\n      <option name=\"presentableId\" value=\"LOCAL\u061C٠٠٠٠٢\" />\r\n      <updated>1637663510274</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"editing classes\" />\r\n    <MESSAGE value=\"Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"574\" y=\"154\" key=\"#com.intellij.ide.util.MemberChooser\" timestamp=\"1637671833373\">\r\n      <screen x=\"0\" y=\"30\" width=\"1536\" height=\"834\" />\r\n    </state>\r\n    <state x=\"574\" y=\"154\" key=\"#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834\" timestamp=\"1637671833373\" />\r\n    <state x=\"549\" y=\"189\" key=\"FileChooserDialogImpl\" timestamp=\"1637687248947\">\r\n      <screen x=\"0\" y=\"30\" width=\"1536\" height=\"834\" />\r\n    </state>\r\n    <state x=\"549\" y=\"189\" key=\"FileChooserDialogImpl/0.30.1536.834@0.30.1536.834\" timestamp=\"1637687248947\" />\r\n    <state x=\"147\" y=\"97\" key=\"MergeDialog\" timestamp=\"1637658710313\">\r\n      <screen x=\"0\" y=\"30\" width=\"1536\" height=\"834\" />\r\n    </state>\r\n    <state x=\"147\" y=\"97\" key=\"MergeDialog/0.30.1536.834@0.30.1536.834\" timestamp=\"1637658710313\" />\r\n    <state x=\"407\" y=\"209\" key=\"MultipleFileMergeDialog\" timestamp=\"1637658733518\">\r\n      <screen x=\"0\" y=\"30\" width=\"1536\" height=\"834\" />\r\n    </state>\r\n    <state x=\"407\" y=\"209\" key=\"MultipleFileMergeDialog/0.30.1536.834@0.30.1536.834\" timestamp=\"1637658733518\" />\r\n    <state x=\"529\" y=\"150\" key=\"RollbackChangesDialog\" timestamp=\"1637658635289\">\r\n      <screen x=\"0\" y=\"30\" width=\"1536\" height=\"834\" />\r\n    </state>\r\n    <state x=\"529\" y=\"150\" key=\"RollbackChangesDialog/0.30.1536.834@0.30.1536.834\" timestamp=\"1637658635289\" />\r\n    <state x=\"300\" y=\"67\" key=\"SettingsEditor\" timestamp=\"1637687677589\">\r\n      <screen x=\"0\" y=\"30\" width=\"1536\" height=\"834\" />\r\n    </state>\r\n    <state x=\"300\" y=\"67\" key=\"SettingsEditor/0.30.1536.834@0.30.1536.834\" timestamp=\"1637687677589\" />\r\n    <state x=\"578\" y=\"361\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1637658643161\">\r\n      <screen x=\"0\" y=\"30\" width=\"1536\" height=\"834\" />\r\n    </state>\r\n    <state x=\"578\" y=\"361\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834\" timestamp=\"1637658643161\" />\r\n    <state x=\"360\" y=\"68\" key=\"new project wizard\" timestamp=\"1637687250675\">\r\n      <screen x=\"0\" y=\"30\" width=\"1536\" height=\"834\" />\r\n    </state>\r\n    <state x=\"360\" y=\"68\" key=\"new project wizard/0.30.1536.834@0.30.1536.834\" timestamp=\"1637687250675\" />\r\n    <state x=\"425\" y=\"204\" key=\"run.anything.popup\" timestamp=\"1637678167884\">\r\n      <screen x=\"0\" y=\"30\" width=\"1536\" height=\"834\" />\r\n    </state>\r\n    <state x=\"425\" y=\"204\" key=\"run.anything.popup/0.30.1536.834@0.30.1536.834\" timestamp=\"1637678167884\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision cd68d0c9d9ff75bf63b7caa0b394c33f9bc6f6d7)
++++ .idea/workspace.xml	(date 1637697727394)
+@@ -19,12 +19,8 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="0a8fdc26-dfb9-4a6b-bb5f-f0691c249d25" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++    <list default="true" id="b9316962-ec7f-4b5e-89f7-6d1700582634" name="Default Changelist" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -91,7 +87,7 @@
+       </list>
+     </recent_temporary>
+   </component>
+-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
++  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+   <component name="SvnConfiguration">
+     <configuration>C:\Users\dell\AppData\Roaming\Subversion</configuration>
+   </component>
+@@ -144,10 +140,10 @@
+       <screen x="0" y="30" width="1536" height="834" />
+     </state>
+     <state x="549" y="189" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1637687248947" />
+-    <state x="147" y="97" key="MergeDialog" timestamp="1637658710313">
++    <state x="147" y="97" key="MergeDialog" timestamp="1637694541633">
+       <screen x="0" y="30" width="1536" height="834" />
+     </state>
+-    <state x="147" y="97" key="MergeDialog/0.30.1536.834@0.30.1536.834" timestamp="1637658710313" />
++    <state x="147" y="97" key="MergeDialog/0.30.1536.834@0.30.1536.834" timestamp="1637694541633" />
+     <state x="407" y="209" key="MultipleFileMergeDialog" timestamp="1637658733518">
+       <screen x="0" y="30" width="1536" height="834" />
+     </state>
+@@ -160,10 +156,10 @@
+       <screen x="0" y="30" width="1536" height="834" />
+     </state>
+     <state x="300" y="67" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1637687677589" />
+-    <state x="578" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1637658643161">
++    <state x="578" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1637694504246">
+       <screen x="0" y="30" width="1536" height="834" />
+     </state>
+-    <state x="578" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1637658643161" />
++    <state x="578" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1637694504246" />
+     <state x="360" y="68" key="new project wizard" timestamp="1637687250675">
+       <screen x="0" y="30" width="1536" height="834" />
+     </state>
