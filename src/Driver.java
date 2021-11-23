@@ -1,10 +1,13 @@
-public class Driver extends User {
+public class Driver extends User
+{
     private String nationalid;
     private String drivinglicense;
     private String driverid;
     private float ridecost;
     private String area;
     private float price;
+
+    NotifyManager notifyManager = new NotifyManager();
 
     public void setNationalid(String nationalid) {
         this.nationalid = nationalid;

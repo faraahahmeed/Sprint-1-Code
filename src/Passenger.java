@@ -9,6 +9,7 @@ public class Passenger extends User{
         return passengerid;
     }
     //public void register
+<<<<<<< Updated upstream
     public void RequestRide(String source,String destination){
         Ride ride = new Ride();
         ride.StartRide(source, destination);
@@ -22,5 +23,58 @@ public class Passenger extends User{
     }
     public float Rating (float rate){
         return ride.RateRide(rate);
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @Override
+    public void update() {
+        System.out.println("new Offer added, check it out");
+
+>>>>>>> Stashed changes
     }
 }

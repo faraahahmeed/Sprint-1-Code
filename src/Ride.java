@@ -10,21 +10,16 @@ public class Ride extends Observer{
     //private float riderate;
     private Offer [] offers ;
     DataManager dataManager = new DataManager();
-
-    @Override
-    public void update() {
-        
-    }
+    Offer offer= new Offer();
+    Driver driver=new Driver();
 
     public void StartRide (String source,String destination)
     {
 
-         String RideID =UUID.randomUUID().toString();
+        String RideID =UUID.randomUUID().toString();
         Source=source;
         Destination=destination;
-        System.out.println("looking for driver..");
-        //hena hab3t notify lel driver ba- source area low hy3ml accept
-        //driver SetCost lel user
+        offer.update(); ////////////
         if(/*user accept offer*/)
             System.out.println(RideID);
        else
@@ -40,7 +35,11 @@ public class Ride extends Observer{
 
     public boolean RideStatus (String rideIDid)
     {
+<<<<<<< Updated upstream
         if (endride()=="yes") ////w5dah mn class driver
+=======
+        if (driver.endride()==true)
+>>>>>>> Stashed changes
             return true;
         else
             return false;

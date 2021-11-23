@@ -21,10 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b9316962-ec7f-4b5e-89f7-6d1700582634" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NotifyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotifyManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Passenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +105,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="574" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1637660831878">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="574" y="154" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1637660831878" />
     <state x="147" y="97" key="MergeDialog" timestamp="1637658710313">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

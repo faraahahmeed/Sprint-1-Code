@@ -1,13 +1,11 @@
-public class Offer extends Observer {
-    private double Price;
+public class Offer {
     Driver driver= new Driver();
-    public void AddOffer(String driverid,double price )
+    User user;
+    public void AddOffer(float price )
     {
+        driver.setPrice(price);
+        user.getId();
 
     }
-    @Override
-    public void update() {
 
-
-    }
 }
