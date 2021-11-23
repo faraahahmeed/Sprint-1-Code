@@ -35,7 +35,7 @@ public class Ride {
 
     public boolean RideStatus (String rideIDid)
     {
-        if (EndRide()=="yes") ////w5dah mn class driver
+        if (endride()=="yes") ////w5dah mn class driver
             return true;
         else
             return false;
