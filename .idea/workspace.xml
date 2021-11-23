@@ -20,15 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9316962-ec7f-4b5e-89f7-6d1700582634" name="Default Changelist" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotifyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotifyManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Offer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ride.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +64,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.main">
     <configuration name="DataManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataManager" />
       <module name="sprint 1" />
@@ -78,8 +72,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="sprint 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.DataManager" />
       </list>
     </recent_temporary>
