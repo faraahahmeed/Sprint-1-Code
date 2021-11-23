@@ -40,13 +40,14 @@ public class Ride extends NotifyManager
          offer.AddOffer(cost);
     }
 
-    public boolean RideStatus (String rideIDid)
+    public boolean RideStatus ()
     {
-        if (driver.endride()==true)
-
-            return true;
-        else
+        if (driver.endride()==false) {
+            System.out.println("Ride ended.");
             return false;
+        }
+        else
+            return true;
     }
 
     public void DisplayRide()
