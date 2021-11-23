@@ -8,7 +8,7 @@ public class Ride {
     private float Cost;
     private boolean status;
     //private float riderate;
-    private Offers [] offers ;
+    private Offer [] offer ;
     DataManager dataManager = new DataManager();
 
     public void StartRide (String source,String destination)
@@ -17,7 +17,7 @@ public class Ride {
          String RideID =UUID.randomUUID().toString();
         Source=source;
         Destination=destination;
-        System.out.println("looking for driver..");
+
         //hena hab3t notify lel driver ba- source area low hy3ml accept
         //driver SetCost lel user
         if(/*user accept offer*/)
@@ -35,10 +35,10 @@ public class Ride {
 
     public boolean RideStatus (String rideIDid)
     {
-        if (EndRide()=="yes") ////w5dah mn class driver
-            return true;
-        else
+        if (EndRide()==false)
             return false;
+        else
+            return true;
     }
 
     public void DisplayRide()
