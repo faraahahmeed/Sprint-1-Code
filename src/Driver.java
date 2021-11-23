@@ -7,6 +7,11 @@ public class Driver extends User implements Observer
     private float price;
 
     DataManager dm = new DataManager();
+    AdminUser adminUser= new AdminUser();
+    public void verified ()
+    {
+        adminUser.VerifyRegistrations();
+    }
 
     public void setNationalid(String nationalid) {
         this.nationalid = nationalid;
