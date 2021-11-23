@@ -7,7 +7,8 @@ public class main {
         User user = new User();
         Driver driver = new Driver();
         Passenger passenger = new Passenger();
-
+        System.out.println("enter your id, username,password,email & mobilenum");
+        id =input.next();
 
 
     }
