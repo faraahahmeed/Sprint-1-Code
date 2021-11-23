@@ -1,36 +1,43 @@
 
-import java.util.Scanner;
-import java.util.UUID;
-public class Ride extends Observer{
+import java.util.ArrayList;
+import java.util.*;
+
+public class Ride extends NotifyManager
+{
     private String Source;
     private String Destination;
-    private String RideID;
-    private float Cost;
-    private boolean status;
-    //private float riderate;
+    private int RideID;
+
     private Offer [] offers ;
-    DataManager dataManager = new DataManager();
-    Offer offer= new Offer();
-    Driver driver=new Driver();
+    private Offer offer= new Offer();
+    private Driver driver=new Driver();
+    private NotifyManager notifyManager = new NotifyManager();
+    private List<Ride> list = new ArrayList<Ride>();
+    private Random rd = new Random();
+
+    public void save(Ride ride) {
+        list.add(ride);
+    }
+
+    public int getNumberOfRides(){
+        return list.size();
+    }
+
+    public Ride getHistory() {
+        return (Ride) list;
+    }
 
     public void StartRide (String source,String destination)
     {
-
-        String RideID =UUID.randomUUID().toString();
+        RideID = rd.nextInt();
         Source=source;
         Destination=destination;
-        offer.update(); ////////////
-        if(/*user accept offer*/)
-            System.out.println(RideID);
-       else
-        System.out.println("stil looking for driver");
-
+        notifyManager.Notify();
     }
 
-    public float SetCost (float cost)
+    public void SetCost (float cost)
     {
-        Cost=cost;
-        //return addOffer( h7ot driver id ,cost);
+         offer.AddOffer(cost);
     }
 
     public boolean RideStatus (String rideIDid)
@@ -44,14 +51,13 @@ public class Ride extends Observer{
 
     public void DisplayRide()
     {
-        dataManager.setDataType(new RidesData);
-        dataManager.executeGet(RideID);
+        list.get(RideID);
     }
-    public float RateRide (float rate)
+    public float RateRide (float rating)
     {
         Scanner in =new Scanner(System.in);
         System.out.println("Enter your Ride rating");
-        rate= in.nextFloat();
-        return rate;
+        rating= in.nextFloat();
+        return rating;
     }
 }

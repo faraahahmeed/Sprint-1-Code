@@ -1,6 +1,6 @@
 import java.util.UUID;
 
-public abstract class User  extends Observer
+public class User
 {
     private String username;
     private String email;
@@ -34,12 +34,9 @@ public abstract class User  extends Observer
         mobilenum = z;
     }
     String ID = UUID.randomUUID().toString();
-<<<<<<< Updated upstream
-    public void ViewHistory(String id){
-
-
+    public void ViewHistory(){
+        Ride ride = new Ride();
+        System.out.println(ride.getHistory());
     }
-=======
 
->>>>>>> Stashed changes
 }
