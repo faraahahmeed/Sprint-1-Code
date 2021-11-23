@@ -20,14 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f459306d-ca3a-4728-8c5c-d8ce35911c3d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AdminUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< Updated upstream
-      <change beforePath="$PROJECT_DIR$/src/DataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RidesData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RidesData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UsersData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UsersData.java" afterDir="false" />
-=======
+      <change beforePath="$PROJECT_DIR$/sprint 1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sprint 1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ride.java" afterDir="false" />
->>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +37,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="21C0ZIwdZk437pJTF7ZXNzUMRsU" />
@@ -51,6 +57,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="module" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -71,7 +78,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -96,15 +103,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="654" y="310" key="#Notifications" timestamp="1637524439530">
-      <screen x="0" y="30" width="1536" height="834" />
-    </state>
-    <state x="654" y="310" key="#Notifications/0.30.1536.834@0.30.1536.834" timestamp="1637524439530" />
-    <state x="202" y="116" key="SettingsEditor" timestamp="1637524431655">
-      <screen x="0" y="30" width="1536" height="834" />
-    </state>
-    <state x="202" y="116" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1637524431655" />
   </component>
 </project>
