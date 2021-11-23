@@ -19,13 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9316962-ec7f-4b5e-89f7-6d1700582634" name="Default Changelist" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+    <list default="true" id="f459306d-ca3a-4728-8c5c-d8ce35911c3d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Passenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ride.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,17 +36,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="msherifff &lt;marimsherif2008@yahoo.com&gt;" />
-      </list>
-    </option>
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="21C0ZIwdZk437pJTF7ZXNzUMRsU" />
@@ -60,7 +44,6 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="module" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -81,31 +64,18 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b9316962-ec7f-4b5e-89f7-6d1700582634" name="Default Changelist" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+      <changelist id="f459306d-ca3a-4728-8c5c-d8ce35911c3d" name="Changes" comment="" />
       <created>1637429838792</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637429838792</updated>
     </task>
-    <task id="LOCAL؜٠٠٠٠١" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <created>1637663488006</created>
-      <option name="number" value="LOCAL؜٠٠٠٠١" />
-      <option name="presentableId" value="LOCAL؜٠٠٠٠١" />
-      <updated>1637663488006</updated>
-    </task>
-    <task id="LOCAL؜٠٠٠٠٢" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <created>1637663510274</created>
-      <option name="number" value="LOCAL؜٠٠٠٠٢" />
-      <option name="presentableId" value="LOCAL؜٠٠٠٠٢" />
-      <updated>1637663510274</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,32 +89,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="editing classes" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="574" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1637660831878">
-      <screen x="0" y="30" width="1536" height="834" />
-    </state>
-    <state x="574" y="154" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1637660831878" />
-    <state x="147" y="97" key="MergeDialog" timestamp="1637658710313">
-      <screen x="0" y="30" width="1536" height="834" />
-    </state>
-    <state x="147" y="97" key="MergeDialog/0.30.1536.834@0.30.1536.834" timestamp="1637658710313" />
-    <state x="407" y="209" key="MultipleFileMergeDialog" timestamp="1637658733518">
-      <screen x="0" y="30" width="1536" height="834" />
-    </state>
-    <state x="407" y="209" key="MultipleFileMergeDialog/0.30.1536.834@0.30.1536.834" timestamp="1637658733518" />
-    <state x="529" y="150" key="RollbackChangesDialog" timestamp="1637658635289">
-      <screen x="0" y="30" width="1536" height="834" />
-    </state>
-    <state x="529" y="150" key="RollbackChangesDialog/0.30.1536.834@0.30.1536.834" timestamp="1637658635289" />
-    <state x="578" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1637658643161">
-      <screen x="0" y="30" width="1536" height="834" />
-    </state>
-    <state x="578" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1637658643161" />
   </component>
 </project>
