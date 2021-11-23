@@ -6,7 +6,7 @@ public class User
     private String email;
     private String password;
     private String mobilenum;
-    private String id;
+    private String ID;
 
 
     public String getUsername() {
@@ -23,7 +23,7 @@ public class User
     }
 
     public String getId() {
-        return id;
+        return ID;
     }
 
     public  void Register(String w, String x , String y, String z)
@@ -32,8 +32,9 @@ public class User
         email = x;
         password = y;
         mobilenum = z;
+        ID = UUID.randomUUID().toString();
     }
-    String ID = UUID.randomUUID().toString();
+
     public void ViewHistory(){
         Ride ride = new Ride();
         System.out.println(ride.getHistory());

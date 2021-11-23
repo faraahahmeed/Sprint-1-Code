@@ -32,7 +32,7 @@ public class Driver extends User implements Observer
         this.area = Area;
         dm.setDataType(new FavouriteArea());
         dm.executeSave(area);
-        
+
     }
 
     public void setPrice(float price) {
