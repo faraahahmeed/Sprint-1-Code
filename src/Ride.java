@@ -8,7 +8,7 @@ public class Ride {
     private float Cost;
     private boolean status;
     //private float riderate;
-    private Offers [] offers ;
+    private Offer [] offers ;
     DataManager dataManager = new DataManager();
 
     public void StartRide (String source,String destination)
