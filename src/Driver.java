@@ -42,10 +42,10 @@ public class Driver extends User {
         return price;
     }
     public boolean endride(){
-
+        return false;
     }
-    public Object listride(){
-
+    public Ride listride(){
+       return null;
     }
 }
 
