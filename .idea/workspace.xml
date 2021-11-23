@@ -19,14 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f459306d-ca3a-4728-8c5c-d8ce35911c3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AdminUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b9316962-ec7f-4b5e-89f7-6d1700582634" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprint 1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sprint 1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotifyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotifyManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Offer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ride.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +75,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -103,5 +100,23 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="147" y="97" key="MergeDialog" timestamp="1637658710313">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="147" y="97" key="MergeDialog/0.30.1536.834@0.30.1536.834" timestamp="1637658710313" />
+    <state x="407" y="209" key="MultipleFileMergeDialog" timestamp="1637658733518">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="407" y="209" key="MultipleFileMergeDialog/0.30.1536.834@0.30.1536.834" timestamp="1637658733518" />
+    <state x="529" y="150" key="RollbackChangesDialog" timestamp="1637658635289">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="529" y="150" key="RollbackChangesDialog/0.30.1536.834@0.30.1536.834" timestamp="1637658635289" />
+    <state x="578" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1637658643161">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="578" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1637658643161" />
   </component>
 </project>
