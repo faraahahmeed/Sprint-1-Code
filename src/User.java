@@ -34,4 +34,8 @@ public abstract class User
         mobilenum = z;
     }
     String ID = UUID.randomUUID().toString();
+    public void ViewHistory(String id){
+
+
+    }
 }

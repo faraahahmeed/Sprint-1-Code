@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f459306d-ca3a-4728-8c5c-d8ce35911c3d" name="Changes" comment="AdminUser">
       <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +97,13 @@
       <option name="presentableId" value="LOCAL؜٠٠٠٠٢" />
       <updated>1637659377905</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL؜٠٠٠٠٣" summary="AdminUser">
+      <created>1637659677671</created>
+      <option name="number" value="LOCAL؜٠٠٠٠٣" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠٣" />
+      <updated>1637659677671</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
