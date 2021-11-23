@@ -6,7 +6,7 @@ public class Driver extends User implements Observer
     private String area;
     private float price;
 
-    //NotifyManager notifyManager = new NotifyManager();
+    DataManager dm = new DataManager();
 
     public void setNationalid(String nationalid) {
         this.nationalid = nationalid;
@@ -30,6 +30,9 @@ public class Driver extends User implements Observer
     public void FavoriteArea(String Area)
     {
         this.area = Area;
+        dm.setDataType(new FavouriteArea());
+        dm.executeSave(area);
+        
     }
 
     public void setPrice(float price) {
