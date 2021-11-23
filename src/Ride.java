@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 import java.util.UUID;
-public class Ride {
+public class Ride extends Observer{
     private String Source;
     private String Destination;
     private String RideID;
@@ -10,6 +10,11 @@ public class Ride {
     //private float riderate;
     private Offer [] offers ;
     DataManager dataManager = new DataManager();
+
+    @Override
+    public void update() {
+        
+    }
 
     public void StartRide (String source,String destination)
     {

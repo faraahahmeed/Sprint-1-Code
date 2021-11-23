@@ -1,2 +1,4 @@
-public class NotifiManger {
+public abstract class Observer {
+    NotifyManger notifyManger;
+    public abstract void update();
 }
