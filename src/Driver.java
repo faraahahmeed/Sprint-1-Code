@@ -6,7 +6,7 @@ public class Driver extends User implements Observer
     private String area;
     private float price;
 
-    NotifyManager notifyManager = new NotifyManager();
+    //NotifyManager notifyManager = new NotifyManager();
 
     public void setNationalid(String nationalid) {
         this.nationalid = nationalid;

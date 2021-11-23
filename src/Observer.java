@@ -1,5 +1,5 @@
-public interface Observer {
-    NotifyManager notifyManger = new NotifyManager();
-
+public interface Observer
+{
+    NotifyManager notifyManager = new NotifyManager();
     public void update();
 }
