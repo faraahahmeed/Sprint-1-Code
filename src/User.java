@@ -1,6 +1,6 @@
 import java.util.UUID;
 
-public abstract class User
+public class User
 {
     private String username;
     private String email;
