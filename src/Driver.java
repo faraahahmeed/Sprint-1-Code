@@ -8,9 +8,11 @@ public class Driver extends User implements Observer
 
     DataManager dm = new DataManager();
     AdminUser adminUser= new AdminUser();
-    public void verified ()
+    Ride ride = new Ride();
+
+    public void verified (Driver driver)
     {
-        adminUser.VerifyRegistrations();
+        adminUser.VerifyRegistrations(driver);
     }
 
     public void setNationalid(String nationalid) {
@@ -51,7 +53,7 @@ public class Driver extends User implements Observer
         return false;
     }
     public Ride listride(){
-       return null;
+       return ride.getHistory();
     }
     @Override
     public void update() {

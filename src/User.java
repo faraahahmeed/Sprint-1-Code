@@ -26,12 +26,12 @@ public class User
         return ID;
     }
 
-    public  void Register(String w, String x , String y, String z)
+    public  void Register(String username, String email , String password, String mobilenum)
     {
-        username = w;
-        email = x;
-        password = y;
-        mobilenum = z;
+        this.username = username;
+        this.email = email;
+        this.password = password;
+        this.mobilenum = mobilenum;
         ID = UUID.randomUUID().toString();
     }
 
