@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a8fdc26-dfb9-4a6b-bb5f-f0691c249d25" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/20196088_20196064_20196055_20196087_S4/src/com/company/Terminal.java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -95,7 +93,6 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b9316962-ec7f-4b5e-89f7-6d1700582634" name="Default Changelist" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
       <created>1637429838792</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -138,26 +135,26 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="574" y="154" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1637671833373" />
-    <state x="549" y="189" key="FileChooserDialogImpl" timestamp="1637687248947">
+    <state x="549" y="189" key="FileChooserDialogImpl" timestamp="1637753816582">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="549" y="189" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1637687248947" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1637700850760">
+    <state x="549" y="189" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1637753816582" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1637701608179">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1637700850760" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1637700850760">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1637701608179" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1637701608179">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1637700850760" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1637700850760">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1637701608179" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1637701608178">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1637700850760" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1637700850760">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1637701608178" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1637701608179">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1637700850760" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1637701608179" />
     <state x="147" y="97" key="MergeDialog" timestamp="1637658710313">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
