@@ -1,14 +1,19 @@
-public class Driver extends User implements Observer
-{
+import java.util.ArrayList;
+
+public class Driver extends User {
     private String nationalid;
     private String drivinglicense;
     private float ridecost;
     private String area;
     private float price;
 
-    DataManager dm = new DataManager();
-    AdminUser adminUser= new AdminUser();
-    Ride ride = new Ride();
+    DataManager dm ;
+    AdminUser adminUser;
+    Ride ride;
+    private ArrayList<String> favarea=new ArrayList<>();
+    private ArrayList<Ride> rd = new ArrayList<>();
+    Notification notification= new Notification();
+    Offer offer;
 
     public void verified (Driver driver)
     {
@@ -34,30 +39,45 @@ public class Driver extends User implements Observer
     {
         this.ridecost = ridecost;
     }
-    public void FavoriteArea(String Area)
-    {
-        this.area = Area;
-        dm.setDataType(new FavouriteArea());
-        dm.executeSave(area);
 
-    }
 
-    public void setPrice(float price) {
+    /*public void setPrice(float price) {
         this.price = price;
-    }
+    }*/
 
-    public float getPrice() {
-        return price;
-    }
+
     public boolean endride(){
         return false;
     }
     public Ride listride(){
-       return ride.getHistory();
+        return ride.getHistory();
     }
-    @Override
+    /*@Override
     public void update() {
         System.out.println("new ride is requested, check it out");
+    }*/
+
+    public void addfavarea (String place){
+        favarea.add(place);
+    }
+    public boolean Area(String p){
+        boolean flag=false;
+        for(int i=0; i<favarea.size();i++){
+            if(p.equals(favarea.get(i)))
+                flag=true;
+        }
+
+        return flag;
+
+    }
+
+    public ArrayList<Ride> getArrayListofRides() {
+        return rd;
+    }
+
+    public void makeoffer(Ride r , float price) {
+        offer.AddOffer(r,price);
+        notification.sendoffer(offer);
     }
 
 }

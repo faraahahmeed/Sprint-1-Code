@@ -2,18 +2,19 @@
 import java.util.ArrayList;
 import java.util.*;
 
-public class Ride extends NotifyManager
+public class Ride //extends NotifyManager
 {
     private String Source;
     private String Destination;
     private int RideID;
 
     private Offer [] offers ;
-    private Offer offer= new Offer();
-    private Driver driver=new Driver();
-    private NotifyManager notifyManager = new NotifyManager();
+    private Offer offer;
+    private Driver driver;
+    Passenger p;
+    //private NotifyManager notifyManager ;
     private List<Ride> list = new ArrayList<Ride>();
-    private Random rd = new Random();
+    private Random rd ;
 
     public void save(Ride ride) {
         list.add(ride);
@@ -27,18 +28,28 @@ public class Ride extends NotifyManager
         return (Ride) list;
     }
 
-    public void StartRide (String source,String destination)
+    public void requestRide (String source,String destination)
     {
-        RideID = rd.nextInt();
+        //RideID = rd.nextInt();
         Source=source;
         Destination=destination;
-        notifyManager.Notify();
+        //notifyManager.addObserver(driver);
+        //notifyManager.Notify();
+    }
+    public String getSource ()
+    {
+        return Source;
+    }
+    boolean flag;
+    public void startride()
+    {
+
     }
 
-    public void SetCost (float cost)
+    /*public void SetCost (float cost)
     {
-         offer.AddOffer(cost);
-    }
+         offer.AddOffer(rd,cost);
+    }*/
 
     public boolean RideStatus ()
     {
@@ -61,4 +72,8 @@ public class Ride extends NotifyManager
         rating= in.nextFloat();
         return rating;
     }
+    public Passenger getpassenger() {
+        return p;
+    }
+
 }

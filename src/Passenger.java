@@ -1,7 +1,9 @@
-public class Passenger extends User implements Observer
-{
+import java.util.ArrayList;
+
+public class Passenger extends User {
     private String passengerid;
-    private Ride ride = new Ride();
+    private Ride ride;
+    private ArrayList<Offer> of=new ArrayList<>();
 
     public void setPassengerid(String passengerid) {
         this.passengerid = passengerid;
@@ -12,8 +14,7 @@ public class Passenger extends User implements Observer
     }
 
     public void RequestRide(String source, String destination) {
-        Ride ride = new Ride();
-        ride.StartRide(source, destination);
+        ride.requestRide(source, destination);
     }
 
     public String DriverDetails(Driver driver) {
@@ -21,16 +22,17 @@ public class Passenger extends User implements Observer
 
     }
 
-    public boolean AcceptOffer() {
-        return true;
+    public ArrayList<Offer> AcceptOffer() {
+        return of;
     }
 
     public float Rating(float rate) {
         return ride.RateRide(rate);
 
     }
-    @Override
+
+   /* @Override
     public void update() {
         System.out.println("new Offer added, check it out");
-    }
+    }*/
 }
