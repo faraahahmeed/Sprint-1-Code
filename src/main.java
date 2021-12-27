@@ -37,7 +37,7 @@ public class main {
                         break;
 
                     case 2:
-                        user.logIn();
+                        user.logIn(driver);
                         System.out.println("1) Add Favourite area \n 2) Make Offer \n 3)end ride \n 4)exit  ");
                         int in = input.nextInt();
                         if (in == 1) {
@@ -72,7 +72,7 @@ public class main {
                         break;
 
                     case 2:
-                        passenger.logIn();
+                        passenger.logIn(passenger);
                         System.out.println("1) Request Ride \n 2)rate ride \n 3)check driver details \n 4)exit ");
                         int inp = input.nextInt();
                         if (inp == 1) {

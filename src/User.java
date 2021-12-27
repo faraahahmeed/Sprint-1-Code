@@ -8,8 +8,6 @@ public class User
     private String password;
     private String mobilenum;
     private String ID;
-    private Driver driver;
-    private Passenger passenger;
     Scanner input = new Scanner(System.in);
 
     public String getUsername() {
@@ -44,12 +42,18 @@ public class User
 
      }
 
-    public  void logIn(){
+    public  void logIn(Driver driver){
         System.out.println("Enter Username");
         username=input.nextLine();
         System.out.println("Enter password");
         password =input.next();
         driver.checkloginFordriver();
+    }
+    public  void logIn(Passenger passenger){
+        System.out.println("Enter Username");
+        username=input.nextLine();
+        System.out.println("Enter password");
+        password =input.next();
         passenger.checkloginForpassenger();
     }
 
