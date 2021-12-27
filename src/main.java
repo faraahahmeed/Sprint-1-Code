@@ -16,7 +16,7 @@ public class main {
 
         while (true) {
             System.out.println("choice one of the following:  ");
-            System.out.println("1)Driver  \n 2) Passenger \n 3)Exit" );
+            System.out.println("1)Driver\n 2) Passenger\n 3)Exit" );
             int choice = input.nextInt();
             if (choice == 1) {
                 System.out.println("1) Sign up " + "\n" + "2) Login");
@@ -32,7 +32,9 @@ public class main {
                         System.out.println("wait till an admin verify Your Registeration");
                         adminUser.pending.add(driver);
                         adminUser.VerifyRegistrations(driver);
-
+                        System.out.println("successfully verified " +
+                                "you can log in now");
+                        break;
 
                     case 2:
                         user.logIn();
@@ -54,8 +56,10 @@ public class main {
                         } else {
                             System.out.println("invalid input");
                         }
+                        break;
                     default:
                         System.out.println("invalid choice");
+                        break;
                 }
             }
 
@@ -65,6 +69,7 @@ public class main {
                 switch (pch) {
                     case 1:
                         passenger.signup();
+                        break;
 
                     case 2:
                         passenger.logIn();
@@ -89,8 +94,10 @@ public class main {
                             break;
                         }
                         else System.out.println("invalid input");
+                        break;
                     default:
                         System.out.println("invalid choice");
+                        break;
                 }
 
                 if (choice == 3) {
