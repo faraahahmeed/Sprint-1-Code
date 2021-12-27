@@ -7,8 +7,8 @@ public class Offer //extends NotifyManager
     private float price;
     Ride r;
     User user;
-    public void AddOffer(Ride r,float price ) {
-        this.r = r;
+    public void AddOffer(float price ) {
+        //this.r = r;
         //driver.setPrice(price);
         this.price= price;
         user.getId();

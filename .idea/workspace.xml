@@ -21,6 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="0a8fdc26-dfb9-4a6b-bb5f-f0691c249d25" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Passenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +70,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager" selected="Application.main">
     <configuration name="DataManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -139,22 +146,22 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="549" y="189" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1637753816582" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1637701608179">
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1640554611533">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1637701608179" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1637701608179">
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1640554611533" />
+    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1640554611533">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1637701608179" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1637701608178">
+    <state width="1493" height="178" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1640554611533" />
+    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1640554611523">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1637701608178" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1637701608179">
+    <state width="1493" height="178" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1640554611523" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1640554611533">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1637701608179" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1640554611533" />
     <state x="147" y="97" key="MergeDialog" timestamp="1637658710313">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -167,10 +174,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="529" y="150" key="RollbackChangesDialog/0.30.1536.834@0.30.1536.834" timestamp="1637658635289" />
-    <state x="300" y="67" key="SettingsEditor" timestamp="1637687677589">
+    <state x="300" y="67" key="SettingsEditor" timestamp="1640550356623">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="300" y="67" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1637687677589" />
+    <state x="300" y="67" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1640550356623" />
     <state x="578" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1637658643161">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -183,5 +190,9 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="425" y="204" key="run.anything.popup/0.30.1536.834@0.30.1536.834" timestamp="1637678167884" />
+    <state x="431" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1640561662045">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="431" y="186" width="672" height="678" key="search.everywhere.popup/0.30.1536.834@0.30.1536.834" timestamp="1640561662045" />
   </component>
 </project>

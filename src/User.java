@@ -1,5 +1,6 @@
+import java.util.ArrayList;
 import java.util.UUID;
-
+import java.util.Scanner;
 public class User
 {
     private String username;
@@ -7,7 +8,9 @@ public class User
     private String password;
     private String mobilenum;
     private String ID;
-
+    private Driver driver;
+    private Passenger passenger;
+    Scanner input = new Scanner(System.in);
 
     public String getUsername() {
         return username;
@@ -26,18 +29,28 @@ public class User
         return ID;
     }
 
-    public  void Register(String username, String email , String password, String mobilenum)
-    {
-        this.username = username;
-        this.email = email;
-        this.password = password;
-        this.mobilenum = mobilenum;
-        ID = UUID.randomUUID().toString();
-    }
 
-    public void ViewHistory(){
+    /*public void ViewHistory(){
         Ride ride = new Ride();
         System.out.println(ride.getHistory());
+    }*/
+     public void signup() {
+         System.out.println("Enter Username, Email ,Password and Mobile Number");
+         String username = input.next();
+         String password = input.next();
+         String email = input.next();
+         String mobilenum = input.next();
+
+
+     }
+
+    public  void logIn(){
+        System.out.println("Enter Username");
+        username=input.nextLine();
+        System.out.println("Enter password");
+        password =input.next();
+        driver.checkloginFordriver();
+        passenger.checkloginForpassenger();
     }
 
 }

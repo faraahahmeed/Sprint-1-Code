@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.*;
 
-public class Ride //extends NotifyManager
+public class Ride
 {
     private String Source;
     private String Destination;
@@ -12,9 +12,15 @@ public class Ride //extends NotifyManager
     private Offer offer;
     private Driver driver;
     Passenger p;
-    //private NotifyManager notifyManager ;
+
     private List<Ride> list = new ArrayList<Ride>();
     private Random rd ;
+
+    public void startRide(String Source , String Destination){
+        this.Source=Source;
+        this.Destination=Destination;
+
+    }
 
     public void save(Ride ride) {
         list.add(ride);
@@ -28,28 +34,10 @@ public class Ride //extends NotifyManager
         return (Ride) list;
     }
 
-    public void requestRide (String source,String destination)
-    {
-        //RideID = rd.nextInt();
-        Source=source;
-        Destination=destination;
-        //notifyManager.addObserver(driver);
-        //notifyManager.Notify();
-    }
     public String getSource ()
     {
         return Source;
     }
-    boolean flag;
-    public void startride()
-    {
-
-    }
-
-    /*public void SetCost (float cost)
-    {
-         offer.AddOffer(rd,cost);
-    }*/
 
     public boolean RideStatus ()
     {

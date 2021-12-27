@@ -1,24 +1,25 @@
 import java.util.ArrayList;
-
 public class Driver extends User {
     private String nationalid;
     private String drivinglicense;
-    private float ridecost;
+    /*private float ridecost;
     private String area;
-    private float price;
+    private float price;*/
+    ArrayList<Driver> pending=new ArrayList<>();
+    ArrayList<Driver> list= new ArrayList<Driver>();
 
-    DataManager dm ;
-    AdminUser adminUser;
+    /*DataManager dm ;
+    AdminUser adminUser;*/
     Ride ride;
     private ArrayList<String> favarea=new ArrayList<>();
     private ArrayList<Ride> rd = new ArrayList<>();
     Notification notification= new Notification();
     Offer offer;
 
-    public void verified (Driver driver)
+   /* public void verified (Driver driver)
     {
         adminUser.VerifyRegistrations(driver);
-    }
+    }*/
 
     public void setNationalid(String nationalid) {
         this.nationalid = nationalid;
@@ -35,16 +36,10 @@ public class Driver extends User {
     public String getDriverid() {
         return getId();
     }
-    public void Balance(float ridecost)
+    /*public void Balance(float ridecost)
     {
         this.ridecost = ridecost;
-    }
-
-
-    /*public void setPrice(float price) {
-        this.price = price;
     }*/
-
 
     public boolean endride(){
         return false;
@@ -52,10 +47,7 @@ public class Driver extends User {
     public Ride listride(){
         return ride.getHistory();
     }
-    /*@Override
-    public void update() {
-        System.out.println("new ride is requested, check it out");
-    }*/
+
 
     public void addfavarea (String place){
         favarea.add(place);
@@ -75,10 +67,34 @@ public class Driver extends User {
         return rd;
     }
 
-    public void makeoffer(Ride r , float price) {
-        offer.AddOffer(r,price);
+    public void makeoffer(float price) {
+        offer.AddOffer(price);
         notification.sendoffer(offer);
     }
 
+    public void checkloginFordriver() {
+        for(int i=0;i<list.size();i++){
+            if((list.get(i).getUsername().equals(this.getUsername()))){
+                if(list.get(i).getPassword().equals(this.getPassword())){
+                    System.out.println("logged in");
+                    break;
+                }
+            }
+            else if(!(list.get(i).getUsername().equals(getUsername())))
+            {
+                if((list.size()-i)==1){
+                    System.out.println("invalid username or password ");
+                    System.exit(0);
+                }
+                else {
+                    continue;
+                }
+            }
+            else if (list.size()==0){
+                System.out.println("The driver List is Empty ");
+                System.exit(0);
+            }
+        }
+    }
 }
 

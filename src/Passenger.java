@@ -3,7 +3,12 @@ import java.util.ArrayList;
 public class Passenger extends User {
     private String passengerid;
     private Ride ride;
+
     private ArrayList<Offer> of=new ArrayList<>();
+    Notification notification= new Notification();
+    ArrayList<Passenger> list= new ArrayList<Passenger>();
+
+
 
     public void setPassengerid(String passengerid) {
         this.passengerid = passengerid;
@@ -13,13 +18,8 @@ public class Passenger extends User {
         return passengerid;
     }
 
-    public void RequestRide(String source, String destination) {
-        ride.requestRide(source, destination);
-    }
-
     public String DriverDetails(Driver driver) {
-        return driver.getMobilenum();
-
+         return driver.getUsername() + driver.getMobilenum();
     }
 
     public ArrayList<Offer> AcceptOffer() {
@@ -31,8 +31,32 @@ public class Passenger extends User {
 
     }
 
-   /* @Override
-    public void update() {
-        System.out.println("new Offer added, check it out");
-    }*/
+    public void RequestRide(String source , String dest){
+        ride.startRide(source,dest);
+        notification.sendnotify(ride);
+    }
+    public void checkloginForpassenger() {
+        for(int i=0;i<list.size();i++){
+            if((list.get(i).getUsername().equals(this.getUsername()))){
+                if(list.get(i).getPassword().equals(this.getPassword())){
+                    System.out.println("logged in");
+                    break;
+                }
+            }
+            else if(!(list.get(i).getUsername().equals(getUsername())))
+            {
+                if((list.size()-i)==1){
+                    System.out.println("invalid username or password ");
+                    System.exit(0);
+                }
+                else {
+                    continue;
+                }
+            }
+            else if (list.size()==0){
+                System.out.println("The driver List is Empty ");
+                System.exit(0);
+            }
+        }
+    }
 }
