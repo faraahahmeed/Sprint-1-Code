@@ -1,7 +1,8 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public interface Operations {
-    public void save(String area);
-    public List<String> getList();
-    public void delete(String ID);
+    public void save(User u);
+    public ArrayList<User> getList();
+    public void delete(User u);
 }

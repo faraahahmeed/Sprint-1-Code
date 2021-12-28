@@ -20,14 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a8fdc26-dfb9-4a6b-bb5f-f0691c249d25" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/PassangerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APIManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GoogleMapsAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Haversine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DriverData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FavouriteArea.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Notification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PassangerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PassangerData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Passenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ride.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

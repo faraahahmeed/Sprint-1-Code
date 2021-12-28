@@ -7,7 +7,7 @@ public class Passenger extends User {
     private ArrayList<Offer> of=new ArrayList<>();
     Notification notification= new Notification();
     ArrayList<Passenger> list= new ArrayList<Passenger>();
-
+    LocationService locationservice=new LocationService();
 
 
     public void setPassengerid(String passengerid) {
@@ -34,6 +34,7 @@ public class Passenger extends User {
     public void RequestRide(Ride ride,String source , String dest){
         ride.startRide(source,dest);
         notification.sendnotify(ride);
+        locationservice.trackcalls();
     }
     public void checkloginForpassenger() {
         for(int i=0;i<list.size();i++){

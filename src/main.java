@@ -42,7 +42,7 @@ public class main {
                         if (in == 1) {
                             String area = input.next();
                             driver.addfavarea(area);
-                            Database.getinstance().adddriver(driver);
+                            DriverData.getinstance().adddriver(driver);
                         } else if (in == 2) {
                             float cost = input.nextFloat();
                             driver.makeoffer(offer,cost);
