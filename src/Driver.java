@@ -2,24 +2,15 @@ import java.util.ArrayList;
 public class Driver extends User {
     private String nationalid;
     private String drivinglicense;
-    /*private float ridecost;
-    private String area;
-    private float price;*/
+
     ArrayList<Driver> pending=new ArrayList<>();
     ArrayList<Driver> list= new ArrayList<Driver>();
 
-    /*DataManager dm ;
-    AdminUser adminUser;*/
     Ride ride;
     private ArrayList<String> favarea=new ArrayList<>();
     private ArrayList<Ride> rd = new ArrayList<>();
     Notification notification= new Notification();
-    Offer offer;
 
-   /* public void verified (Driver driver)
-    {
-        adminUser.VerifyRegistrations(driver);
-    }*/
 
     public void setNationalid(String nationalid) {
         this.nationalid = nationalid;
@@ -67,7 +58,8 @@ public class Driver extends User {
         return rd;
     }
 
-    public void makeoffer(float price) {
+
+    public void makeoffer(Offer offer, float price) {
         offer.AddOffer(price);
         notification.sendoffer(offer);
     }

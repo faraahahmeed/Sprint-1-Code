@@ -20,6 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a8fdc26-dfb9-4a6b-bb5f-f0691c249d25" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/PassangerData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Passenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ride.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
@@ -88,7 +95,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\dell\AppData\Roaming\Subversion</configuration>
   </component>

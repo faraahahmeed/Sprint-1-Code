@@ -1,12 +1,8 @@
-public class Offer //extends NotifyManager
+public class Offer
 {
-    //Driver driver= new Driver();
-    //NotifyManager notifyManager;
-    //Passenger p;
-    //Driver driver;
     private float price;
-    Ride r;
-    User user;
+    private Ride r = new Ride();
+    User user = new User();
     public void AddOffer(float price ) {
         //this.r = r;
         //driver.setPrice(price);
@@ -14,7 +10,7 @@ public class Offer //extends NotifyManager
         user.getId();
     }
 
-    public Ride getride() {
+    public  Ride getride() {
         return r;
     }
 

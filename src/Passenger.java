@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Passenger extends User {
     private String passengerid;
-    private Ride ride;
+    Ride ride ;
 
     private ArrayList<Offer> of=new ArrayList<>();
     Notification notification= new Notification();
@@ -31,7 +31,7 @@ public class Passenger extends User {
 
     }
 
-    public void RequestRide(String source , String dest){
+    public void RequestRide(Ride ride,String source , String dest){
         ride.startRide(source,dest);
         notification.sendnotify(ride);
     }

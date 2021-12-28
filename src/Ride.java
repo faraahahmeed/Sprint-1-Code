@@ -11,7 +11,7 @@ public class Ride
     private Offer [] offers ;
     private Offer offer;
     private Driver driver;
-    Passenger p;
+    Passenger p = new Passenger();
 
     private List<Ride> list = new ArrayList<Ride>();
     private Random rd ;

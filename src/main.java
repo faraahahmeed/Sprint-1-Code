@@ -13,13 +13,12 @@ public class main {
         User user = new User();
         AdminUser adminUser = new AdminUser();
 
-
         while (true) {
             System.out.println("choice one of the following:  ");
-            System.out.println("1)Driver\n 2) Passenger\n 3)Exit" );
+            System.out.println(" 1)Driver\n 2) Passenger\n 3)Exit" );
             int choice = input.nextInt();
             if (choice == 1) {
-                System.out.println("1) Sign up " + "\n" + "2) Login");
+                System.out.println(" 1) Sign up " + "\n" + "2) Login");
                 int ch = input.nextInt();
                 switch (ch) {
                     case 1:
@@ -45,8 +44,8 @@ public class main {
                             driver.addfavarea(area);
                             Database.getinstance().adddriver(driver);
                         } else if (in == 2) {
-                            float cost = input.nextInt();
-                            driver.makeoffer(cost);
+                            float cost = input.nextFloat();
+                            driver.makeoffer(offer,cost);
                         } else if (in == 3) {
                             driver.endride(); //////////
                         } else if (in == 4) {
@@ -79,7 +78,7 @@ public class main {
                             System.out.println("enter your source and destination");
                             String source=input.nextLine();
                             String destination=input.nextLine();
-                            passenger.RequestRide(source,destination);
+                            passenger.RequestRide(ride,source,destination);
                             System.out.println(driver.getArrayListofRides());
                         } else if (inp == 2) {
                             float rate= input.nextFloat();
@@ -100,9 +99,10 @@ public class main {
                         break;
                 }
 
-                if (choice == 3) {
-                    System.exit(0);
-                }
+
+            }
+            if (choice == 3) {
+                System.exit(0);
             }
         }
     }
