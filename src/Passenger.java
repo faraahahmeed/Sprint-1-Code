@@ -4,7 +4,7 @@ public class Passenger extends User {
     private String passengerid;
     Ride ride ;
 
-    private ArrayList<Offer> of=new ArrayList<>();
+    private ArrayList<Offer> offers=new ArrayList<>();
     Notification notification= new Notification();
     ArrayList<Passenger> list= new ArrayList<Passenger>();
     LocationService locationservice=new LocationService();
@@ -23,7 +23,7 @@ public class Passenger extends User {
     }
 
     public ArrayList<Offer> AcceptOffer() {
-        return of;
+        return offers;
     }
 
     public float Rating(float rate) {
