@@ -14,6 +14,7 @@ public class Ride
     Passenger p = new Passenger();
 
     private List<Ride> list = new ArrayList<Ride>();
+    private ArrayList<Ride> endRides= new ArrayList<Ride>();
     private Random rd ;
 
     public void startRide(String Source , String Destination){
@@ -21,6 +22,7 @@ public class Ride
         this.Destination=Destination;
 
     }
+
 
     public void save(Ride ride) {
         list.add(ride);
@@ -30,13 +32,18 @@ public class Ride
         return list.size();
     }
 
-    public Ride getHistory() {
-        return (Ride) list;
+    public Ride getRideHistory(Ride ride) {
+        endRides.add(ride);
     }
 
     public String getSource ()
     {
         return Source;
+    }
+
+    public String getDestination ()
+    {
+        return Destination;
     }
 
     public boolean RideStatus ()
@@ -49,9 +56,10 @@ public class Ride
             return true;
     }
 
-    public void DisplayRide()
-    {
-        list.get(RideID);
+    public String displayRide() {
+        return "Source= " + this.getSource() + "\nDestination= "
+                + this.getDestination() + "\nCost= " + this.offer.getPrice()
+                + "\nDriver= " + this.driver.getUsername();
     }
     public float RateRide (float rating)
     {
