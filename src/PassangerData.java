@@ -2,10 +2,10 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class PassangerData implements Operations {
+public class PassangerData  {
 
     private static PassangerData database ;
-    public ArrayList <User> passengerdb = new ArrayList<>();
+    public ArrayList <Passenger> passengerdb = new ArrayList<>();
     private PassangerData(){}
 
     public static PassangerData getinstance(){
@@ -15,18 +15,19 @@ public class PassangerData implements Operations {
         return database;
     }
 
-    @Override
-    public void save(User u) {
-        passengerdb.add(u);
+    public void addPassenger(Passenger p){
+        passengerdb.add(p);
     }
 
-    @Override
-    public ArrayList<User> getList() {
+    public ArrayList <Passenger> getPassengers(){
         return passengerdb;
     }
 
-    @Override
-    public void delete(User u) {
-        passengerdb.remove(u);
+    public void delete(Passenger p) {
+        passengerdb.remove(p);
     }
 }
+
+
+
+
