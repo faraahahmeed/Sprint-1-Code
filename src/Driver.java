@@ -32,11 +32,9 @@ public class Driver extends User {
         this.ridecost = ridecost;
     }*/
 
-    public boolean endride(){
-        return false;
-    }
+
     public Ride listride(){
-        return ride.getHistory();
+        return ride.getRideHistory(ride);
     }
 
 
