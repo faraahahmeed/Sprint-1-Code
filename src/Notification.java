@@ -11,4 +11,8 @@ public class Notification {
 
 
     }
+    public void sendnotifywhenuseracceptoffer(Ride ride)
+    {
+        if(ride.RideStatus()==true) {DriverData.getinstance().getdrivers();}
+    }
     }
