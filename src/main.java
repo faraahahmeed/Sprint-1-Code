@@ -47,7 +47,13 @@ public class main {
                             float cost = input.nextFloat();
                             driver.makeoffer(offer,cost);
                         } else if (in == 3) {
-                            driver.endride(); //////////
+                            ride.RideStatus();
+                            System.out.println("if you wish to end ride press yes");
+                            String s=input.nextLine();
+                            if(s=="yes")
+                            { driver.completeride();}
+                            else break;
+
                         } else if (in == 4) {
                             driver.listride();
                         } else if (in == 5) {
@@ -72,7 +78,7 @@ public class main {
 
                     case 2:
                         passenger.logIn(passenger);
-                        System.out.println("1) Request Ride \n 2)rate ride \n 3)check driver details \n 4)exit ");
+                        System.out.println("1) Request Ride\n2)rate ride\n3)check driver details\n4)check ride details\n5)exit ");
                         int inp = input.nextInt();
                         if (inp == 1) {
                             System.out.println("enter your source and destination");
@@ -86,10 +92,14 @@ public class main {
                             break;
                         } else if (inp == 3) {
 
-                            System.out.println(passenger.DriverDetails(driver));
+                            System.out.println(ride.DriverDetails(driver));
                             break;
                         }
-                        else if (inp == 4) {
+                        else if (inp==4)
+                        {
+                            ride.displayRide();
+                        }
+                        else if (inp == 5) {
                             break;
                         }
                         else System.out.println("invalid input");
