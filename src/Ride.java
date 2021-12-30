@@ -1,40 +1,49 @@
 
-//import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.*;
 
 public class Ride
 {
     private String Source;
     private String Destination;
-    private int RideID;
-
-
-    //private Offer [] offers ;
+   
+    double rating;
+    int id;
+ 
     private Offer offer;
     private Driver driver;
+    float cost;
     Passenger p = new Passenger();
-
-    private List<Ride> list = new ArrayList<Ride>();
-    private ArrayList<Ride> endRides= new ArrayList<Ride>();
-    private Random rd ;
+    Notification notification=new Notification();
+    Ride ridee;
+    private List<Ride> list = new ArrayList<>();
+    private ArrayList<Ride> endRides= new ArrayList<>();
+    
 
     public void startRide(String Source , String Destination){
         this.Source=Source;
         this.Destination=Destination;
+        cost=offer.getPrice();
+        notification.sendnotifywhenuseracceptoffer(ridee);
 
     }
-
-
+    public void setId(int id) {
+        this.id = id;
+    }
+    public Ride get(int id) {
+        return list.get(id);
+    }
     public void save(Ride ride) {
+        ride.setId(getNumberOfRide());
         list.add(ride);
     }
 
-    public int getNumberOfRides(){
+    public int getNumberOfRide(){
         return list.size();
     }
 
-    public Ride getRideHistory(Ride ride) {
-        endRides.add(ride);
+    public void RideHistory(Ride ride) { ////Ride bdl void??
+          endRides.add(ride);
     }
 
     public String getSource ()
@@ -49,12 +58,13 @@ public class Ride
 
     public boolean RideStatus ()
     {
-        if (driver.endride()==false) {
+        if (driver.completeride()==true) {
             System.out.println("Ride ended.");
-            return false;
-        }
-        else
             return true;
+        }
+        else{
+            System.out.println("ongoing ride");
+            return false;}
     }
 
     public String displayRide() {
@@ -62,15 +72,23 @@ public class Ride
                 + this.getDestination() + "\nCost= " + this.offer.getPrice()
                 + "\nDriver= " + this.driver.getUsername();
     }
-    public float RateRide (float rating)
+    public void RateRide (double rating)
+    { if(RideStatus()==true) {
+        this.rating=rating;
+        }
+    }
+
+    public void israted()
     {
-        Scanner in =new Scanner(System.in);
-        System.out.println("Enter your Ride rating");
-        rating= in.nextFloat();
-        return rating;
+
     }
     public Passenger getpassenger() {
         return p;
     }
+
+    public String DriverDetails(Driver driver) {
+        return driver.getUsername() + driver.getMobilenum();
+    }
+
 
 }
