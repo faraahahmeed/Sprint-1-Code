@@ -1,11 +1,14 @@
 import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Driver extends User {
     private String nationalid;
     private String drivinglicense;
+    float ridecost=0;
 
     ArrayList<Driver> pending=new ArrayList<>();
     ArrayList<Driver> list= new ArrayList<Driver>();
-
+    Offer o=new Offer();
     Ride ride;
     private ArrayList<String> favarea=new ArrayList<>();
     private ArrayList<Ride> rd = new ArrayList<>();
@@ -27,14 +30,15 @@ public class Driver extends User {
     public String getDriverid() {
         return getId();
     }
-    /*public void Balance(float ridecost)
+
+    public void Balance(float ridecost)
     {
-        this.ridecost = ridecost;
-    }*/
+        this.ridecost = this.ridecost + ridecost;
+    }
 
 
-    public Ride listride(){
-        return ride.getRideHistory(ride);
+    public void listride(){
+         ride.RideHistory(ride);
     }
 
 
@@ -60,6 +64,16 @@ public class Driver extends User {
     public void makeoffer(Offer offer, float price) {
         offer.AddOffer(price);
         notification.sendoffer(offer);
+    }
+
+    public boolean completeride()
+    {
+        System.out.println("do you wish to end ride?");
+        Scanner input = new Scanner(System.in);
+        String choice =input.nextLine();
+        if(choice =="y") return true;
+        else return false;
+
     }
 
     public void checkloginFordriver() {
