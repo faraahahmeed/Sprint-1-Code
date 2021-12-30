@@ -18,18 +18,14 @@ public class Passenger extends User {
         return passengerid;
     }
 
-    public String DriverDetails(Driver driver) {
-         return driver.getUsername() + driver.getMobilenum();
-    }
-
     public ArrayList<Offer> AcceptOffer() {
         return offers;
     }
 
-    public float Rating(float rate) {
+    /*public double Rating(double rate) {
         return ride.RateRide(rate);
 
-    }
+    }*/
 
     public void RequestRide(Ride ride,String source , String dest){
         ride.startRide(source,dest);
