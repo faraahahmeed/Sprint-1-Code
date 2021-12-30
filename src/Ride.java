@@ -1,5 +1,5 @@
 
-import java.util.ArrayList;
+//import java.util.ArrayList;
 import java.util.*;
 
 public class Ride
@@ -8,7 +8,8 @@ public class Ride
     private String Destination;
     private int RideID;
 
-    private Offer [] offers ;
+
+    //private Offer [] offers ;
     private Offer offer;
     private Driver driver;
     Passenger p = new Passenger();

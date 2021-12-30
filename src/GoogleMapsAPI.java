@@ -3,8 +3,15 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.util.Random;
 
 public class GoogleMapsAPI implements APIManager{
+    Random rand = new Random();
+
+    double mylat = rand.nextDouble();
+    double mylong = rand.nextDouble();
+    double destlat = rand.nextDouble();
+    double destlong = rand.nextDouble();
 
     HttpRequest request = HttpRequest.newBuilder()
             .uri(URI.create("https://google-maps-geocoding.p.rapidapi.com/geocode/json?latlng=40.714224%2C-73.96145&language=en"))
@@ -28,8 +35,8 @@ public class GoogleMapsAPI implements APIManager{
     //System.out.println(response.body());
 
 
-    @Override
-    public void CalculateETA(double mylat, double mylong, double destlat, double destlong) {
+
+    public void CalculateETA() {
 
     }
 }

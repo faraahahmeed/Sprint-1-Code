@@ -30,7 +30,7 @@ public class User
 
     public void ViewHistory(){
         Ride ride = new Ride();
-       System.out.println(ride.getHistory());
+       System.out.println(ride.getRideHistory(ride));
     }
      public void signup() {
          System.out.println("Enter Username, Email ,Password and Mobile Number");

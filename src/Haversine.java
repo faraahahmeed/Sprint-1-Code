@@ -1,5 +1,12 @@
+import java.util.Random;
+
 public class Haversine  implements APIManager {
-    double mylat, mylong, destlat, destlong;
+    Random rand = new Random();
+
+    double mylat = rand.nextDouble();
+    double mylong = rand.nextDouble();
+    double destlat = rand.nextDouble();
+    double destlong = rand.nextDouble();
     /*import java.util.Scanner;
         public static void main(String args[]){
             Scanner scan = new Scanner(System.in);*/
@@ -23,8 +30,8 @@ public class Haversine  implements APIManager {
 
 
 
-    @Override
-    public void CalculateETA(double mylat, double mylong, double destlat, double destlong) {
+
+    public void CalculateETA() {
         this.mylat = Math.toRadians(mylat);
         this.mylong = Math.toRadians(mylong);
 
@@ -40,8 +47,9 @@ public class Haversine  implements APIManager {
 
         double b = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
         double distance = EarthRad * b;
+        double final_distance= distance/60;
 
-        System.out.println("The distance between your origin and destination is : " + distance + " Kilometeres");
+        System.out.println("The distance between your origin and destination is : " + final_distance + " Kilometeres");
 
     }
 }
